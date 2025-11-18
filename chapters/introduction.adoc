@@ -1,0 +1,9 @@
+== Introduction
+
+Welcome to your AsciiDoc book project. This template provides a sensible structure for writing technical or narrative books using Asciidoctor.
+
+* Keep chapters in the `chapters/` directory.
+* Use appendices in the `appendices/` directory for supplementary material.
+* Add images to `assets/images/` and reference them with the `image::` macro.
+
+This starter is intentionally lightweight so you can focus on writing while keeping build tooling simple and transparent.

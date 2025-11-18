@@ -1,0 +1,27 @@
+= AsciiDoc Book Starter
+Your Name
+:doctype: book
+:revdate: {sysdate}
+:revnumber: 0.1
+:revremark: Draft template
+:toc: left
+:toclevels: 3
+:icons: font
+:sectnums:
+:source-highlighter: rouge
+:chapterdir: chapters
+:appendixdir: appendices
+:imagesdir: assets/images
+
+[preface]
+== Preface
+
+Thank you for using this starter template. Replace the placeholder text and structure with your own content to create a polished AsciiDoc book.
+
+include::{chapterdir}/introduction.adoc[]
+include::{chapterdir}/setup.adoc[]
+include::{chapterdir}/writing-your-book.adoc[]
+include::{chapterdir}/publishing.adoc[]
+
+[appendix]
+include::{appendixdir}/resources.adoc[]
