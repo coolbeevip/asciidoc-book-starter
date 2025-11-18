@@ -1,0 +1,26 @@
+== Setting Up Your Environment
+
+To render this book locally you need Ruby and the Asciidoctor toolchain. The Makefile in this repository assumes you have `asciidoctor` and `asciidoctor-pdf` installed.
+
+. Install dependencies (if you do not have them):
++
+[source,bash]
+----
+gem install asciidoctor asciidoctor-pdf
+----
+
+. Build an HTML version of the book:
++
+[source,bash]
+----
+make html
+----
+
+. Build a PDF version of the book:
++
+[source,bash]
+----
+make pdf
+----
+
+If you prefer another toolchain, adjust the Makefile or provide your own build scripts to match your environment.

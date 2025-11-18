@@ -1,0 +1,9 @@
+== Publishing and Distribution
+
+After drafting your content, decide how you want to distribute the book. Asciidoctor supports multiple output formats:
+
+* **HTML** for hosting on the web
+* **PDF** for print-ready copies
+* **EPUB** for e-readers using additional tools such as `asciidoctor-epub3`
+
+You can also integrate the Makefile with continuous integration to produce artifacts on every push. Consider adding steps to upload the generated files to your preferred hosting provider.

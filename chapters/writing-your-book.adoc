@@ -1,0 +1,31 @@
+== Writing Your Book
+
+AsciiDoc offers expressive features for structuring content. Here are some quick reminders to get started:
+
+=== Sections and numbering
+
+Use `==` for chapters and `===` for sub-sections. Section numbering is enabled globally via the `:sectnums:` attribute in `book.adoc`.
+
+=== Code listings
+
+[source,ruby]
+----
+puts 'Hello, reader!'
+----
+
+Add the `[source,<language>]` block for syntax highlighting.
+
+=== Images
+
+image::example-diagram.png[Example diagram, width=75%]
+
+Place images under `assets/images/` and update the filename accordingly.
+
+=== Callouts and tips
+
+[NOTE]
+====
+Callouts, admonitions, and sidebars help highlight key information for readers.
+====
+
+Add your own writing guidelines or conventions to this chapter as your book evolves.

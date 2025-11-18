@@ -1,0 +1,7 @@
+== Additional Resources
+
+* The https://docs.asciidoctor.org/[Asciidoctor documentation] for reference and advanced topics.
+* The https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc syntax quick reference] to look up formatting options.
+* The https://github.com/asciidoctor[Asciidoctor GitHub organization] for plugins and community projects.
+
+List more links, style guides, or publisher requirements here for your team.
