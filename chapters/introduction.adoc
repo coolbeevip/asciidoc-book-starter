@@ -1,9 +1,9 @@
-== Introduction
+== 介绍
 
-Welcome to your AsciiDoc book project. This template provides a sensible structure for writing technical or narrative books using Asciidoctor.
+欢迎来到你的 AsciiDoc 图书项目。本模板为使用 Asciidoctor 撰写技术书或叙事类内容提供了合理的结构。
 
-* Keep chapters in the `chapters/` directory.
-* Use appendices in the `appendices/` directory for supplementary material.
-* Add images to `assets/images/` and reference them with the `image::` macro.
+* 章节文件放在 `chapters/` 目录。
+* 补充材料放在 `appendices/` 目录。
+* 图片放在 `assets/images/`，并使用 `image::` 宏引用。
 
-This starter is intentionally lightweight so you can focus on writing while keeping build tooling simple and transparent.
+模板保持刻意的轻量化，让你能专注写作，同时保持构建工具链简单透明。
