@@ -14,9 +14,9 @@ Your Name
 :imagesdir: assets/images
 
 [preface]
-== Preface
+== 前言
 
-Thank you for using this starter template. Replace the placeholder text and structure with your own content to create a polished AsciiDoc book.
+感谢使用本模板开启写作。请将示例文字与章节结构替换为自己的内容，按照需求逐步打磨，最终生成一份完善的 AsciiDoc 图书。
 
 include::{chapterdir}/introduction.adoc[]
 include::{chapterdir}/setup.adoc[]

@@ -1,31 +1,31 @@
-== Writing Your Book
+== 写作指南
 
-AsciiDoc offers expressive features for structuring content. Here are some quick reminders to get started:
+AsciiDoc 提供丰富的语法来组织内容，以下是快速提示：
 
-=== Sections and numbering
+=== 章节与编号
 
-Use `==` for chapters and `===` for sub-sections. Section numbering is enabled globally via the `:sectnums:` attribute in `book.adoc`.
+使用 `==` 创建章节，`===` 创建小节。全局章节编号通过 `book.adoc` 中的 `:sectnums:` 属性启用。
 
-=== Code listings
+=== 代码示例
 
 [source,ruby]
 ----
 puts 'Hello, reader!'
 ----
 
-Add the `[source,<language>]` block for syntax highlighting.
+为代码块添加 `[source,<language>]` 以获得语法高亮。
 
-=== Images
+=== 图片
 
-image::example-diagram.png[Example diagram, width=75%]
+image::example-diagram.png[示例示意图, width=75%]
 
-Place images under `assets/images/` and update the filename accordingly.
+图片统一放在 `assets/images/`，使用正确的文件名即可。
 
-=== Callouts and tips
+=== 标注与提示
 
 [NOTE]
 ====
-Callouts, admonitions, and sidebars help highlight key information for readers.
+提示框、警告框或侧栏可以帮助读者抓住关键信息。
 ====
 
-Add your own writing guidelines or conventions to this chapter as your book evolves.
+随着写作推进，可在此章节补充适合团队的写作规范或约定。

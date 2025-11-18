@@ -1,9 +1,9 @@
-== Publishing and Distribution
+== 发布与分发
 
-After drafting your content, decide how you want to distribute the book. Asciidoctor supports multiple output formats:
+完成草稿后，需要决定如何分发图书。Asciidoctor 支持多种输出格式：
 
-* **HTML** for hosting on the web
-* **PDF** for print-ready copies
-* **EPUB** for e-readers using additional tools such as `asciidoctor-epub3`
+* **HTML**：适合在网页上托管
+* **PDF**：适合打印或离线阅读
+* **EPUB**：结合 `asciidoctor-epub3` 等工具生成电子书
 
-You can also integrate the Makefile with continuous integration to produce artifacts on every push. Consider adding steps to upload the generated files to your preferred hosting provider.
+你也可以将 Makefile 集成到持续集成流程中，在每次提交后自动生成制品，并将输出上传至偏好的托管平台。
