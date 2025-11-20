@@ -5,6 +5,7 @@ Your Name
 :revnumber: 0.1
 :revremark: Draft template
 :toc: left
+:toc-title: 目录
 :toclevels: 3
 :icons: font
 :sectnums:
