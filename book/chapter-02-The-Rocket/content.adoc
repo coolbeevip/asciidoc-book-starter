@@ -1,0 +1,81 @@
+= 火箭
+
+****
+
+[discrete]
+== 章节概要
+想在太空中漂浮，真正需要的是一枚火箭。
+火箭是一种可以把你从地面送入太空的装置。
+
+[discrete]
+== 小节安排
+
+1. 火箭
+2. 太空船
+3. 太空
+
+****
+
+更多内容写在这里……
+
+[source,javascript,linenums,highlight=2;12-13]
+:snippetFilename: ./index.js
+.{snippetFilename}
+----
+// 引入框架并创建实例
+const fastify = require('fastify')({ logger: true })
+
+fastify.get('/', async (request, reply) => { // <.>
+  return { hello: 'world' }
+})
+
+const start = async () => {
+  try {
+    await fastify.listen({ port: 3000 }) // <.>
+  } catch (err) {
+    fastify.log.error(err)
+    process.exit(1)
+  }
+}
+start()
+----
+
+== 这是哪一节……
+
+以下展示其他内建的警示块类型：
+
+====
+*一般区块*
+
+每次写段落时都应该考虑这样做，因为这会让文字更容易阅读和理解。
+====
+
+NOTE: 一些补充说明……
+
+.这个技巧的标题
+[TIP]
+====
+*警告*
+
+每次写段落时都应该考虑这样做，因为这会让文字更容易阅读和理解。
+====
+
+IMPORTANT: 别忘了……
+
+[WARNING]
+====
+icon:warning[] *警告*
+
+这种警告块将字号设为 0，因此不会出现在 PDF 输出里。
+====
+
+CAUTION: 请确保……
+
+现在来展示一个引用块：
+
+[quote, Ben Parker, Spiderman Movie]
+____
+能力越大，责任越大。
+____
+
+这里是引用之后的正文。

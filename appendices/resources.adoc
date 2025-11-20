@@ -1,7 +1,0 @@
-== 参考资源
-
-* https://docs.asciidoctor.org/[Asciidoctor 文档]：官方指南与高级主题。
-* https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc 语法速查表]：查找常用排版写法。
-* https://github.com/asciidoctor[Asciidoctor GitHub 主页]：插件与社区项目集合。
-
-可在此补充团队需要的链接、风格指南或出版要求。

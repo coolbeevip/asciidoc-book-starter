@@ -1,0 +1,91 @@
+:imagesdir: images
+ifeval::["{docname}" == "index"]
+:imagesdir: chapter-03-How-Planet-Systems-Work/images
+endif::[]
+
+= 行星系统如何运作？
+
+下列是一些行星：
+
+. 地球
+.. 地球补充
+.. 更多地球细节
+. 火星
++
+.一张外太空的图片
+image::space.jpeg["外太空"]
+. 木星
+. 土星
+
+== 太空中的图标
+
+可以使用所有 https://fontawesome.com/v4/icons[Font Awesome]footnote:[https://fontawesome.com/v4/icons] 图标：
+
+icon:comment[] 这是评论图标
+
+icon:file[] 这是文件图标
+
+icon:battery-full[] 这是电池图标
+
+icon:github[] GitHub 图标
+
+icon:code-fork[] 代码分支图标
+
+下面是脚注示例：
+
+一个大胆的声明！footnote:disclaimer[以上观点仅代表我自己。]
+
+=== 太空中的表格
+
+.这是表格的可选标题
+|===
+|第 1 列名称 |第 2 列名称
+
+|第 1 行第 1 列的单元格
+|第 1 行第 2 列的单元格
+
+|第 2 行第 1 列的单元格
+|第 2 行第 2 列的单元格
+|===
+
+== 太空中的代码片段
+
+下面是一个 Fastify 应用的代码片段：
+
+[source,javascript,linenums,highlight=2;12-13]
+:snippetFilename: ./index.js
+.{snippetFilename}
+----
+// 引入框架并创建实例
+const fastify = require('fastify')({ logger: true })
+
+fastify.get('/', async (request, reply) => { // <.>
+  return { hello: 'world' }
+})
+
+const start = async () => {
+  try {
+    await fastify.listen({ port: 3000 }) // <.>
+  } catch (err) {
+    fastify.log.error(err)
+    process.exit(1)
+  }
+}
+start()
+----
+<.> 在 / 声明一个 GET 路由
+<.> 启动服务器！
+
+还可以考虑使用下面的设置来自定义书中的代码高亮：
+
+----
+:source-highlighter: rouge
+:rouge-style: base16.monokai
+----
+
+下面的示例展示了侧边栏的样式：
+
+.薄荷
+[sidebar]
+薄荷梦想征服整个世界。
+如果不把它种在容器里，就会占领整个花园。
